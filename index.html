@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <script
+      src="https://kit.fontawesome.com/22b463cfc0.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <header>
+      <nav>
+        <i class="fa-solid fa-bars"></i>
+        <div class="logo">
+          <h1>Port <span>Folio</span>.</h1>
+        </div>
+        <div class="links-container">
+          <ul class="ul">
+            <i class="fa-solid fa-xmark"></i>
+            <li><a class="active" href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular theme fa-moon" id="dark"></i>
+          </ul>
+        </div>
+      </nav>
+    </header>
+
+    <section id="home">
+      <div class="container">
+        <div class="left">
+          <div class="icon">
+            <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-square-facebook"></i
+            ></a>
+            <a href="" target="_blank"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+          </div>
+          <div class="brief-bio">
+            <h3>Hello, I'm</h3>
+            <h1>Emma Okeke</h1>
+            <span>Software Developer</span>
+            <p>
+              Hi, am a fullstack web developer. I like building and investing in tech stuffs like AI, Blockchain and Quantum Computing. Am a life long learner. I also have hobbies like reading and martial arts.
+            </p>
+            <a class="cv" download="assets/billgates.png" href="#"
+              >Download CV</a
+            >
+          </div>
+        </div>
+        <div class="right">
+          <img class="home-img" src="assets/main.png" alt="" />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="heading">
+        <h3>About Me</h3>
+        <p>Inroduction</p>
+      </div>
+      <div class="container">
+        <div class="left">
+          <img src="assets/main.png" alt="" />
+        </div>
+        <div class="right">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+            necessitatibus dolorum dolorem eos quis ullam, tempore veniam maxime
+            officia. Illum corrupti libero quod dicta sed! Corrupti asperiores
+            alias quidem hic!
+          </p>
+          <div class="info">
+            <i class="fa-solid fa-user"></i><span>Emma Okeke</span>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-phone"></i><span>0802 370 9157</span>
+          </div>
+          <div class="info">
+            <i class="fa-solid fa-envelope"></i
+            ><span>mimiprosper@hotmail.com</span>
+          </div>
+          <div>
+            <a class="cv" download="assets/billgates.png" href="#"
+              >Download CV</a
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills">
+      <div class="heading">
+        <h2>Skills</h2>
+        <p>My Skills</p>
+      </div>
+      <div class="container">
+        <div class="left">
+          <div class="progress">
+            <div class="progress-details">
+              <span>HTML</span>
+              <span>80%</span>
+            </div>
+            <div class="progress-bar">
+              <span style="width: 80%"></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-details">
+              <span>CSS</span>
+              <span>85%</span>
+            </div>
+            <div class="progress-bar">
+              <span style="width: 85%"></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-details">
+              <span>JavaScripts</span>
+              <span>90%</span>
+            </div>
+            <div class="progress-bar">
+              <span style="width: 90%"></span>
+            </div>
+          </div>
+
+          <div class="progress">
+            <div class="progress-details">
+              <span>React</span>
+              <span>95%</span>
+            </div>
+            <div class="progress-bar">
+              <span style="width: 95%"></span>
+            </div>
+          </div>
+        </div>
+        <div class="right">
+          <img src="assets/main.png" alt="" width="400" />
+        </div>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="heading">
+        <h2>Services</h2>
+        <p>What I do</p>
+      </div>
+      <div class="container">
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-code"></i></div>
+          <p>Web Development</p>
+          <p>Learn more</p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-server"></i></div>
+          <p>Backend Development</p>
+          <p>Learn more</p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-solid fa-brush"></i></div>
+          <p>UI/UX</p>
+          <p>Learn more</p>
+        </div>
+        <div class="card">
+          <div class="icon"><i class="fa-brands fa-android"></i></div>
+          <p>App Development</p>
+          <p>Learn more</p>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="heading">
+        <h2>Contact</h2>
+        <p>Contact Us</p>
+      </div>
+      <div class="container">
+        <form action="">
+          <input type="text" placeholder="Your Name" name="name" />
+          <input type="text" placeholder="Your Email" name="email" />
+          <input type="text" placeholder="Subject" name="subject" />
+          <textarea name="" id="" placeholder="Your Message" name="message"></textarea>
+          <div class="btn-con">
+            <button type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+      
+    </section>
+    <div class="bottom">
+      <h3>Follow Us</h3>
+      <div class="con-icon">
+        <a href="" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-facebook"></i
+        ></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-twitter"></i
+        ></a>
+        <a href="" target="_blank"
+          ><i class="fa-brands fa-square-youtube"></i
+        ></a>
+      </div>
+      <div class="footer">
+        <p><span>&#169;</span> Profix | All Rights Reserved.</p>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
